@@ -1,65 +1,65 @@
 {
-  "name": "curso-platzi-react-avanzado",
-  "version": "1.0.0",
-  "description": "¡Sígueme en Youtube! https://www.youtube.com/midudev",
-  "main": "index.js",
-  "scripts": {
-    "vercel-build": "npm run build",
-    "build": "webpack",
-    "lint": "standard",
-    "lint-fix": "standard --fix",
-    "dev": "webpack serve --mode development --env development --history-api-fallback",
-    "serve:dev": "webpack --mode 'development' && npx serve dist -s",
-    "test": "cypress open"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
-  },
-  "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
-  "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1",
-    "@babel/preset-react": "^7.12.1",
-    "babel-eslint": "^10.1.0",
-    "babel-loader": "^8.1.0",
-    "cypress": "^5.5.0",
-    "html-webpack-plugin": "^4.5.0",
-    "standard": "^16.0.0",
-    "webpack": "^5.3.1",
-    "webpack-cli": "^4.1.0",
-    "webpack-dev-server": "^3.11.0",
-    "webpack-pwa-manifest": "^4.2.0",
-    "workbox-webpack-plugin": "^5.1.4"
-  },
-  "dependencies": {
-    "@reach/router": "^1.3.4",
-    "apollo-boost": "^0.4.9",
-    "graphql": "^15.4.0",
-    "intersection-observer": "^0.11.0",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-apollo": "^3.1.5",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "react-icons": "^3.11.0",
-    "styled-components": "^5.2.0"
-  },
-  "standard": {
-    "ignore": [
-      "/api/**"
-    ]
-  },
-  "eslintConfig": {
-    "parser": "babel-eslint",
-    "extends": [
-      "./node_modules/standard/eslintrc.json"
-    ]
-  }
+    "name": "petgram",
+    "version": "1.0.0",
+    "description": "Curso Avanzado de React de Platzi",
+    "main": "index.js",
+    "scripts": {
+        "vercel-build": "npm run build",
+        "build": "webpack",
+        "lint": "standard",
+        "lint-fix": "standard --fix",
+        "dev": "webpack serve --mode development --env development --history-api-fallback",
+        "serve:dev": "webpack --mode 'development' && npx serve dist -s",
+        "test": "cypress open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mralexsaavedra/petgram.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mralexsaavedra/petgram/issues"
+    },
+    "homepage": "https://github.com/mralexsaavedra/petgram#readme",
+    "devDependencies": {
+        "@babel/core": "^7.12.3",
+        "@babel/preset-env": "^7.12.1",
+        "@babel/preset-react": "^7.12.1",
+        "babel-eslint": "^10.1.0",
+        "babel-loader": "^8.1.0",
+        "cypress": "^5.5.0",
+        "html-webpack-plugin": "^4.5.0",
+        "standard": "^16.0.0",
+        "webpack": "^5.3.1",
+        "webpack-cli": "^4.1.0",
+        "webpack-dev-server": "^3.11.0",
+        "webpack-pwa-manifest": "^4.2.0",
+        "workbox-webpack-plugin": "^5.1.4"
+    },
+    "dependencies": {
+        "@reach/router": "^1.3.4",
+        "apollo-boost": "^0.4.9",
+        "graphql": "^15.4.0",
+        "intersection-observer": "^0.11.0",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.1",
+        "react-apollo": "^3.1.5",
+        "react-dom": "^17.0.1",
+        "react-helmet": "^6.1.0",
+        "react-icons": "^3.11.0",
+        "styled-components": "^5.2.0"
+    },
+    "standard": {
+        "ignore": [
+            "/api/**"
+        ]
+    },
+    "eslintConfig": {
+        "parser": "babel-eslint",
+        "extends": [
+            "./node_modules/standard/eslintrc.json"
+        ]
+    }
 }
